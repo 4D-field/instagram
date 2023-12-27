@@ -6,9 +6,16 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: yellow;
+    color: white;
     text-align: center;
+    padding: 1em 0;
+}
+
+.side {
+    background-color: white;
+    color:blue;
+    text-align: left;
     padding: 1em 0;
 }
 
@@ -16,6 +23,7 @@ main {
     max-width: 800px;
     margin: 20px auto;
 }
+
 
 #video-container {
     position: relative;

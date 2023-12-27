@@ -15,6 +15,14 @@
 
     <main>
         <div>
+            <input type="button" value="night" onclick="
+             document.querySelector('body').style.backgroundColor='black';
+             document.querySelector('body').style.color='white';
+            ">
+            <input type="button" value="day" onclick="
+            document.querySelector('body').style.backgroundColor='white';
+            document.querySelector('body').style.color='black';
+           ">
            <input type="button" value="day" onclick="
            if(document.querySelector('body').dataset.mode==='day')
             {document.querySelector('body').style.backgroundColor='black';
@@ -27,20 +35,13 @@
              document.querySelector('body').dataset.mode='day';
              this.value='night';    
             }
-           ">           
+           ">
+           <a href="./instagram-main/index.html">
+            <button>instagram</button>
+           </a>
            <br><br>
         </div>
         
-        <a href="./instagram-main/index.html">
-            <button>instagram</button>
-        </a>
-        <a href="./link001/link001.html">
-            <button>지락실 안유진 냥이</button>
-        </a>
-        <a href="./link002/link002.html">
-            <button>치즈/버터 다 덤벼!!</button>
-        </a>
-
         <div>
             <iframe width="800" height="450" src="https://www.youtube.com/embed/n_dIOxM_xbk?si=huSwrKGOg4PsgpOm" title="YouTube video player" frameborder="0" allow="accelerometer; 
                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>         
