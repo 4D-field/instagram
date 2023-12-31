@@ -5,6 +5,10 @@ body {
     background-color: white;
 }
 
+a:hover{
+    font-size: 30px;
+}
+
 header {
     background-color: yellow;
     color: white;
