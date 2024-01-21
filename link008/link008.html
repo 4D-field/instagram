@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4D-field Homepage</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../script.js"></script>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">4D-field homepage</a></h1>
+    </header>
+    
+
+    <main>
+        <div>
+           <input type="button" value="day" onclick="
+           if(document.querySelector('body').dataset.mode==='day')
+            {document.querySelector('body').style.backgroundColor='black';
+             document.querySelector('body').style.color='white';
+             document.querySelector('body').dataset.mode='night';
+             this.value='day';}
+            else{
+             document.querySelector('body').style.backgroundColor='white';
+             document.querySelector('body').style.color='black';
+             document.querySelector('body').dataset.mode='day';
+             this.value='night';    
+            }
+           ">           
+        </div>
+           <br><br>
+          
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5NgNicANyqM?si=vOxU9vxQaPjDUu8O" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+            gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div><br><br>
+        <div>
+            <h2>Harvard CS50’s Artificial Intelligence with Python. Full University Course</h2>
+            This course from Harvard University explores the concepts and algorithms at the foundation of modern artificial intelligence, 
+            diving into the ideas that give rise to technologies like large language models, game-playing engines, handwriting recognition,
+             and machine translation. Through hands-on projects, students gain exposure to the theory behind graph search algorithms, 
+             classification, optimization, reinforcement learning, and other topics in artificial intelligence and machine learning as 
+             they incorporate them into their own Python programs.
+
+        </div>    
+        <br><br>
+        
+    </main>
+    <br><br><br>
+
+    <footer>
+            <p>&copy; 2023 동영상 공유 페이지</p>
+    </footer>
+    
+
+    
+</body>
+</html>
