@@ -17,6 +17,10 @@ header {
     width: 100%;
 }
 
+ol {
+    list-style-type: lower-greek
+}
+
 .side {
     background-color: white;
     color:blue;
